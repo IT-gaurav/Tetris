@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: yellowgreen;
+    text-align: center;
+}
+
+.playArea {
+    width: 340px;
+    height: 95vh;
+    border: 2px solid black;
+}
