@@ -5,6 +5,46 @@
 }
 
 body {
-    background: yellowgreen;
+    background: white;
     text-align: center;
+}
+
+.playArea {
+    border-radius: 4px;
+    box-shadow: 0 0 0 rgba(0, 128, 0, 0.2);
+    border: 1px solid;
+}
+
+.score {
+    color: #263238;
+    font-size: 40px;
+    padding: 25px;
+}
+
+.Btn {
+    margin-top: 25px;
+    box-shadow: 0px 1px 0px 0px #f0f7fa;
+    background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+    background-color: #33bdef;
+    border-radius: 6px;
+    border: 1px solid #057fd0;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 23px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #5b6178;
+}
+
+.Btn:hover {
+    background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+    background-color: #019ad2;
+}
+
+.Btn:active {
+    position: relative;
+    top: 1px;
 }
